@@ -1,0 +1,56 @@
+#total{ /*Quando é id se usa #, quando é class se usa . */
+    width: 960px; /*Largura*/
+    height: auto; /*Altura*/
+    margin: auto; /*Centraliza a divisão na página*/
+}
+#topo{
+    width: 960px;
+    height: 75px;
+}
+#logo{
+    width: 267px;
+    height: 75px;
+    float: left; /*Alinhamento a esquerda*/
+}
+#menu{
+    width: 693px;
+    height: auto;
+    float: right; /*Alinhamento a direita*/
+    margin-top: 27px;
+    text-align: center;
+}
+#menu a{
+    color: #660001;
+    text-decoration: none;
+    margin-left: 50px;
+}
+#banner{
+    margin-top: 5px; /*É referente a distância que ele deve ter em cima dele*/
+}
+#menu a:hover{
+    text-decoration: underline; /*Ao passar o mouse em cima do a ele fica com underline*/
+}
+#conteudo1,#conteudo2,#conteudo3,#conteudo4{
+    color: #660001;
+    width: 210px;
+    margin-right: 30px;
+    height: auto;
+    float: left;
+}
+#conteudo1 p,#conteudo2 p,#conteudo3 p,#conteudo4 p{
+    color: black;
+    text-align: justify;
+}
+.saibamais{
+    color: #660001; 
+    font-size: 12px;
+}
+#rodape{
+    bottom: 0;
+    width: 960px;
+    position: fixed; /*A junção de bottom e position faz o rodape*/
+    text-align: center;
+    background-color: #660001;
+    color: white;
+    font-weight: bold;
+}

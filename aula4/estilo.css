@@ -1,0 +1,54 @@
+h1{
+    text-align: center; /*centralizar texto*/
+    text-transform: uppercase; /*letras maiúsculas*/
+    color: #4CAF50; /*cor do texto*/
+}
+
+/*comando{ 
+    atributo: valor;
+    atributo: valor;
+}*/
+
+#total{ /*estou chamando a id:total para fazer um css nela. Como ela é um id, tem que ter o # no começo*/
+    width: 960px;
+    height: auto;
+    margin: auto;
+}
+#topo{
+    width: 960px;
+    height: 100px;
+    background-color: aquamarine;
+}
+#banner{
+    width: 960px;
+    height: 400px;
+    margin-top: 10px; /*Margem se refere a parte de fora da divisão. Então é a margem que ela tera das outras divisões*/
+    margin-bottom: 5px;    
+}
+#conteudo1{
+    width: 600px;
+    height: 400px;
+    background-color: aliceblue; 
+    float: right;  /*Alinhamento do conteúdo*/ 
+}
+#conteudo2{
+    width: 300px;
+    height: 200px;
+    background-color: aliceblue; 
+    float: left;   
+}
+#conteudo3{
+    width: 300px;
+    height: 200px;
+    background-color: blanchedalmond; 
+    float: left;   
+}
+#conteudo2 img{
+    width: 300px;
+    height: 200px;
+}
+#conteudo3 img{
+    width: 300px;
+    height: 200px;    
+}
+        
