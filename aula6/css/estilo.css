@@ -1,0 +1,58 @@
+body{
+    background: url(../imagem/background.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat; /*Faz com que a imagem não repita*/
+    background-attachment: fixed;
+    background-position: center /*Margem horizontal*/ center /*Margem vertical*/;
+}
+#total{
+    width: 960px;
+    height: auto; /*A altura é automático no sentido de sempre se adaptar a quantidade de conteudos inseridos*/
+    margin: auto;
+}
+#banner{
+    width: 960px;
+    height: 300px;
+    background-image: url("../imagem/banner.jpg");
+}
+#menu{
+    width: 210px;
+    height: 300px;
+    background-image: url("../imagem/menu.png");  
+    opacity: 0.8; 
+}
+#menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    text-transform: uppercase;
+    margin-bottom: 15px;
+    display: block; /*Serve para pular a linha*/
+    padding: 10px 0 25.8px 15px; /*Segue uma ordem: topo, direita, baixo e esquerda. Ai não precisa digitar um padding para cada área*/
+}
+#menu a:hover{
+    background-image: url(../imagem/menu.png); 
+}
+#topo{
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 10px auto;
+}
+#conteudo{
+    width: 960px;
+    height: auto;
+    float: left;
+}
+#rodape{
+    width: 960px;
+    height: 25px;
+    clear: both; /*coloca o rodape em baixo do tópico anterior*/
+    background-color: azure;
+}
+.box{ /*Class pode fazer com que vários itens tenham a mesma formatação*/
+    width: 120px;
+    height: 90px;
+    border: 5px grey solid; /*Junta vários atributos da borda sem precisar digitar cada um separadamente*/
+    float: left;
+    margin: 10px 20px 10px 10px;
+}
